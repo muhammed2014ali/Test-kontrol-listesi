@@ -1,0 +1,38 @@
+PROJE TEST KONTROL LİSTESİ
+
+1. Test Hedefleri
+- Projenin işlevselliğini test etmek  
+- Kullanıcı arayüzünün düzgün çalışıp çalışmadığını kontrol etmek  
+- Güvenlik açıklarını tespit etmek ve önlemek
+
+2. Test Kategorileri ve Görevler
+
+A. İŞLEVSELLİK  
+Beklenen Sonuç: Tüm temel işlevlerin hatasız çalışması  
+Görevler:
+- [✔️ ] 1.1 Kullanıcı kayıt sistemi doğru çalışıyor mu?
+- [✔️ ] 1.2 Giriş sistemi hatasız mı?
+- [✔️] 1.3 Veriler doğru şekilde kaydediliyor ve çağrılıyor mu?
+- [✔️ ] 1.4 Formlar hatalı girişlere karşı uyarı veriyor mu?
+
+B. ARAYÜZ  
+Beklenen Sonuç: Kullanıcı arayüzü sezgisel, estetik ve erişilebilir olmalı  
+Görevler:
+- [❌️ ] 2.1 Sayfalar mobil ve masaüstü uyumlu mu?
+- [✔️ ] 2.2 Renkler ve yazılar okunabilir mi?
+- [✔️ ] 2.3 Butonlar ve bağlantılar çalışıyor mu?
+- [✔️ ] 2.4 Hatalı sayfalar için hata mesajı gösteriliyor mu?
+
+C. GÜVENLİK  
+Beklenen Sonuç: Kullanıcı verileri korunmalı ve güvenlik açıkları bulunmamalı  
+Görevler:
+- [✔️ ] 3.1 Şifreler şifreli şekilde saklanıyor mu?
+- [ ❌️] 3.2 Giriş yapmayan kullanıcılar gizli sayfalara erişebiliyor mu?
+- [ ✔️] 3.3 Formlar SQL injection gibi saldırılara karşı korunuyor mu?
+- [ ✔️] 3.4 HTTPS kullanılıyor mu?
+
+3. Genel Notlar
+- [ ] Her test tamamlandığında "Durum" kutucuğu işaretlenecek  
+- [ ] Tespit edilen hatalar ayrı bir hata listesine yazılmalı  
+- [ ] Kritik hatalar çözüldükten sonra yeniden test yapılmalı
+
